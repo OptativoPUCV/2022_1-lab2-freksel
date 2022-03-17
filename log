@@ -20,3 +20,8 @@ ju., 17 de mar. de 2022  0:06:40:
  1 file changed, 3 insertions(+)
  tests:  0|0
 75f11ec
+ju., 17 de mar. de 2022  0:13:25: 
+ list.c | 14 +++++---------
+ 1 file changed, 5 insertions(+), 9 deletions(-)
+ tests:  0|0
+06ff7d6
