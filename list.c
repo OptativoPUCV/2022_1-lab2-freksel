@@ -36,36 +36,49 @@ List * createList() {
     nuevo->current=NULL;
     return nuevo;
 }
-
 void * firstList(List * list) {
     if(list==NULL){return NULL;}
-    
+
     if(list->head==NULL){
         return NULL;
     }
-
-    list->current=list->head;
-
+    list-> current=list->head;
     return list->current->data;
 }
 
 void * nextList(List * list) {
     if(list==NULL){return NULL;}
     
-    if(list->current->next  ==  NULL){return NULL;}   
+    if(list->current==NULL){return NULL;}
 
-    list->current = list->current->next;
+    if(list->current->next==NULL){return NULL;}
+
+    list->current=list->current->next;
 
     return list->current->data;
 }
 
 void * lastList(List * list) {
+    if(list==NULL){return NULL;}
+
+    if(list->tail==NULL){
     return NULL;
+    }
+    list->current=list->tail;
+    return list->current->data;
 }
 
 void * prevList(List * list) {
-    return NULL;
+    if(list==NULL){return NULL;}
+    
+    if(list->current==NULL){return NULL;}
+
+    if(list->current->prev==NULL){return NULL;}
+    
+    list->current=list->current->prev;
+    return list->current->data;
 }
+
 
 void pushFront(List * list, void * data) {
 }
