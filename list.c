@@ -86,9 +86,9 @@ void pushFront(List * list, void * data) {
         list->head=m;
     }
     else{
-        list->tail->next=m;
+        list->head->next=m;
     }
-    list->tail=m;
+    list->head=m;
 }
 
 void pushBack(List * list, void * data) {
