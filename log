@@ -113,3 +113,13 @@ sá., 19 de mar. de 2022 19:24:21:
  tests:  9|3
 total_score: 35/70
 39844db
+sá., 19 de mar. de 2022 19:32:11: 
+ list.c | 10 ++--------
+ 1 file changed, 2 insertions(+), 8 deletions(-)
+In file included from test.c:5:0:
+list.c: In function 'pushFront':
+list.c:85:12: error: 'List {aka struct List}' has no member named 'thead'; did you mean 'head'?
+     if(list->thead==NULL){
+            ^~
+Compilation failed
+1919639
