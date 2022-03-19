@@ -123,3 +123,9 @@ list.c:85:12: error: 'List {aka struct List}' has no member named 'thead'; did y
             ^~
 Compilation failed
 1919639
+sá., 19 de mar. de 2022 19:32:27: 
+ list.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+ tests:  9|3
+total_score: 35/70
+15e062c
