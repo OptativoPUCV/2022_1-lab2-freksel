@@ -338,3 +338,8 @@ do., 20 de mar. de 2022 17:08:16:
  1 file changed, 1 insertion(+), 1 deletion(-)
  tests:  0|0
 09dda84
+do., 20 de mar. de 2022 17:48:51: 
+ list.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+ tests:  0|0
+a01b2e1
