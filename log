@@ -269,3 +269,17 @@ list.c:138:12: error: return makes pointer from integer without a cast [-Werror=
 cc1.exe: all warnings being treated as errors
 Compilation failed
 0ba4c44
+do., 20 de mar. de 2022 16:15:10: 
+ list.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+In file included from test.c:5:0:
+list.c: In function 'popCurrent':
+list.c:137:6: error: assignment makes integer from pointer without a cast [-Werror=int-conversion]
+     i=list->current;
+      ^
+list.c:138:12: error: return makes pointer from integer without a cast [-Werror=int-conversion]
+     return i;
+            ^
+cc1.exe: all warnings being treated as errors
+Compilation failed
+35ddc4d
