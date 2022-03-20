@@ -175,3 +175,8 @@ list.c:91:25: error: 'current' undeclared (first use in this function)
 list.c:91:25: note: each undeclared identifier is reported only once for each function it appears in
 Compilation failed
 bce6b58
+do., 20 de mar. de 2022 14:13:04: 
+ list.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+ tests:  0|0
+75fca68
