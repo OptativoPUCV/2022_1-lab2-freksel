@@ -158,3 +158,9 @@ list.c:92:15: error: statement with no effect [-Werror=unused-value]
 cc1.exe: all warnings being treated as errors
 Compilation failed
 6dfe5d4
+sá., 19 de mar. de 2022 22:44:54: 
+ list.c | 1 -
+ 1 file changed, 1 deletion(-)
+ tests:  9|3
+total_score: 35/70
+411c05e
