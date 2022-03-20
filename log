@@ -297,3 +297,8 @@ list.c:132:9: error: variable 'i' set but not used [-Werror=unused-but-set-varia
 cc1.exe: all warnings being treated as errors
 Compilation failed
 7c8c571
+do., 20 de mar. de 2022 16:15:56: 
+ list.c | 2 --
+ 1 file changed, 2 deletions(-)
+ tests:  0|0
+0213595
