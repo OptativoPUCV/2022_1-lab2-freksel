@@ -88,6 +88,7 @@ void pushFront(List * list, void * data) {
     else{
         list->tail->next=m;
     }
+    m->next=list->head;
     if(list->head){
         list->head->prev=m;
     }
