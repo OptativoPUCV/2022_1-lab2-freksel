@@ -353,3 +353,14 @@ do., 20 de mar. de 2022 17:50:38:
  1 file changed, 1 insertion(+), 1 deletion(-)
  tests:  0|0
 fbc3720
+do., 20 de mar. de 2022 17:51:57: 
+ list.c | 2 ++
+ 1 file changed, 2 insertions(+)
+In file included from test.c:5:0:
+list.c: In function 'popCurrent':
+list.c:137:23: error: 'null' undeclared (first use in this function)
+         if(aux->next!=null){
+                       ^~~~
+list.c:137:23: note: each undeclared identifier is reported only once for each function it appears in
+Compilation failed
+4d550bf
