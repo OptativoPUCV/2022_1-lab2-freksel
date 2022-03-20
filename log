@@ -251,3 +251,21 @@ do., 20 de mar. de 2022 15:52:54:
  tests:  11|1
 total_score: 55/70
 0ef0ef8
+do., 20 de mar. de 2022 16:14:39: 
+ list.c | 8 +++++++-
+ 1 file changed, 7 insertions(+), 1 deletion(-)
+In file included from test.c:5:0:
+list.c: In function 'popCurrent':
+list.c:134:22: error: 'current' undeclared (first use in this function)
+     while(aux->next!=current){
+                      ^~~~~~~
+list.c:134:22: note: each undeclared identifier is reported only once for each function it appears in
+list.c:137:6: error: assignment makes integer from pointer without a cast [-Werror=int-conversion]
+     i=list->current;
+      ^
+list.c:138:12: error: return makes pointer from integer without a cast [-Werror=int-conversion]
+     return i;
+            ^
+cc1.exe: all warnings being treated as errors
+Compilation failed
+0ba4c44
