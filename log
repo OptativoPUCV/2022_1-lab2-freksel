@@ -180,3 +180,9 @@ do., 20 de mar. de 2022 14:13:04:
  1 file changed, 1 insertion(+), 1 deletion(-)
  tests:  0|0
 75fca68
+do., 20 de mar. de 2022 14:13:50: 
+ list.c | 1 -
+ 1 file changed, 1 deletion(-)
+ tests:  9|3
+total_score: 35/70
+59b7049
