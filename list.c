@@ -130,7 +130,9 @@ void * popBack(List * list) {
 
 void * popCurrent(List * list) {
     Node* aux= list->head;
-    if(list->head==NULL){return NULL;}
+    if(list->head==NULL){
+        return NULL;
+    }
 
     while(aux->next!=list->current){
         aux=aux->next;
