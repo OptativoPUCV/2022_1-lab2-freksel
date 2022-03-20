@@ -112,7 +112,7 @@ void pushCurrent(List * list, void * data) {
         pc->prev=list->current;
     }
     else{
-        pc->next=NULL;
+        list->tail=pc;
         pc->prev=list->current;
         list->current->next=pc;
     }
