@@ -147,3 +147,14 @@ sá., 19 de mar. de 2022 22:12:48:
  tests:  9|3
 total_score: 35/70
 6e686c2
+sá., 19 de mar. de 2022 22:13:45: 
+ list.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+In file included from test.c:5:0:
+list.c: In function 'pushFront':
+list.c:92:15: error: statement with no effect [-Werror=unused-value]
+     list->head->next;
+     ~~~~~~~~~~^~~~~~
+cc1.exe: all warnings being treated as errors
+Compilation failed
+6dfe5d4
