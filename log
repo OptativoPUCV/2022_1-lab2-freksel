@@ -364,3 +364,9 @@ list.c:137:23: error: 'null' undeclared (first use in this function)
 list.c:137:23: note: each undeclared identifier is reported only once for each function it appears in
 Compilation failed
 4d550bf
+do., 20 de mar. de 2022 18:04:12: 
+ list.c | 6 ++++--
+ 1 file changed, 4 insertions(+), 2 deletions(-)
+ tests:  11|1
+total_score: 55/70
+451e8d5
