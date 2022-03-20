@@ -164,3 +164,14 @@ sá., 19 de mar. de 2022 22:44:54:
  tests:  9|3
 total_score: 35/70
 411c05e
+do., 20 de mar. de 2022 14:10:52: 
+ list.c | 1 +
+ 1 file changed, 1 insertion(+)
+In file included from test.c:5:0:
+list.c: In function 'pushFront':
+list.c:91:25: error: 'current' undeclared (first use in this function)
+     list->current->next=current->next;
+                         ^~~~~~~
+list.c:91:25: note: each undeclared identifier is reported only once for each function it appears in
+Compilation failed
+bce6b58
