@@ -307,3 +307,8 @@ do., 20 de mar. de 2022 16:19:54:
  1 file changed, 2 insertions(+)
  tests:  0|0
 ef5ce77
+do., 20 de mar. de 2022 16:21:39: 
+ list.c | 4 +++-
+ 1 file changed, 3 insertions(+), 1 deletion(-)
+ tests:  0|0
+b56a94f
