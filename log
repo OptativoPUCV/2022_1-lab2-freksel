@@ -452,3 +452,17 @@ do., 20 de mar. de 2022 22:28:40:
  tests:  11|1
 total_score: 55/70
 b14a172
+do., 20 de mar. de 2022 22:31:21: 
+ list.c | 4 +++-
+ 1 file changed, 3 insertions(+), 1 deletion(-)
+In file included from test.c:5:0:
+list.c: In function 'popCurrent':
+list.c:147:6: error: assignment makes integer from pointer without a cast [-Werror=int-conversion]
+     i=list->current->data;
+      ^
+list.c:149:12: error: return makes pointer from integer without a cast [-Werror=int-conversion]
+     return i;
+            ^
+cc1.exe: all warnings being treated as errors
+Compilation failed
+33ee0ff
