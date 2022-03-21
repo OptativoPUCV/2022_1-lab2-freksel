@@ -143,6 +143,7 @@ void * popCurrent(List * list) {
         list->current->next=aux;
     }
     else{
+        list=list->current->next;
         list->current->next->prev=NULL;
     }
     free(list->current);
