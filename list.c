@@ -146,7 +146,7 @@ void * popCurrent(List * list) {
     }
     i=list->current->data;
     free(list->current);
-    list->current=list->current->next;
+    list->current=list->current;
     return i;
 }
 
