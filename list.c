@@ -143,7 +143,7 @@ void * popCurrent(List * list) {
         list->current->next=aux;
     }
     else{
-        list->current->next=aux;
+        list->head=aux;
     }
     free(list->current);
     return list->current->data;
