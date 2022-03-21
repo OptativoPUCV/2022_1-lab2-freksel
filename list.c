@@ -129,7 +129,7 @@ void * popBack(List * list) {
 }
 
 void * popCurrent(List * list) {
-    int i;
+    int* i;
     if(list->head==NULL){
         return NULL;
     }
